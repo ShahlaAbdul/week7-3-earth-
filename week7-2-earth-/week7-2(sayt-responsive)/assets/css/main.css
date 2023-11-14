@@ -1,0 +1,161 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#headerr {
+  background-image: url("	https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+@media only screen and (max-width: 920px) {
+  #headerr span {
+    display: block !important;
+  }
+}
+#headerr #navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+#headerr #navbar .earth_store {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+#headerr #navbar ul {
+  display: flex;
+  gap: 30px;
+}
+#headerr #navbar ul a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+#headerr #navbar ul sup {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+#headerr #navbar ul span {
+  display: none;
+}
+#headerr .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
+  margin-top: 20px;
+}
+#headerr .contact button {
+  width: 160px;
+  border: none;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(32, 157, 39);
+}
+
+main .section_2 .cards {
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  justify-content: space-around;
+}
+main .section_2 .cards img {
+  display: flex;
+  width: 400px;
+  height: 450px;
+}
+main .section_2 .cards .text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  font-size: large;
+}
+main .section_2 .cards .text span {
+  color: gray;
+  font-weight: 10rem;
+}
+main .customer {
+  align-items: flex-start;
+}
+main .customer .customer_say {
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+main .customer .customer_say .text_container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .customer .customer_say .text_container .text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+main .customer .customer_say .text_container .text p {
+  font-size: 18px;
+  max-width: 300px;
+  margin-right: 50px;
+}
+main .customer .customer_say .text_container .text img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+#section_4 {
+  background-image: url("https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Call-to-action.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+#section_4 .postcard {
+  padding-top: 25vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#section_4 .postcard h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 20px;
+  font-size: 32px;
+  margin-top: 30px;
+}
+#section_4 .postcard h4 {
+  color: rgb(30, 181, 30);
+  font-size: 22px;
+  margin: 20px;
+}
+#section_4 .postcard a {
+  background-color: green;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#section_4 .postcard a:hover {
+  background-color: rgb(134, 198, 38);
+}
+
+#section_5 .payment {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */
